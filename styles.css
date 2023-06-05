@@ -1,19 +1,87 @@
 
 .center {
+     text-align: center;
      margin-left: auto;
      margin-right: auto;
-     }
+     padding: 15px;
+}
+
+.justify {
+     text-align: justify;
+     padding: 10px;
+}
+
 .subscribe {
      background-color: #FF0000;
-     font-size: 95%;
+     font-size: 15px;
      color: white;
      padding: 8px;
      border: none;
      height: 36px;
-     width: 110px;
+     width: 120px;
      border-radius: 2px;
      cursor: pointer;
-     }
+     transition: 0.2s;
+}
+
+.subscribe:hover {
+     transform: scale(1.07);
+     border: none;
+     font-weight: 700;
+}
+
 .lists {
      font-size: 20px;
+}
+
+.example {
+     padding: 15px;
+}
+
+.change-color {
+     display: inline-block;
+     padding: 10px 15px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     border-radius: 5px;
+     border: 3px solid red;
+     cursor: pointer;
+}
+
+.change-color-red {
+     background: grey;
+     border: none;
+     color: white;
+     transition: 0.5s;
+}
+
+.change-color.button-outline {
+     background: grey;
+     }
+
+.change-color:hover {
+     background: orangered;
+     border: none;
+     transform: scale(1.1);
+}
+
+.header {
+     background-color: mediumpurple;
+     padding: 20px;
+}
+
+.spoiler {
+     color: black;
+     background-color: black;
+     border: 2px solid black;
+     transition: 0.2s;
+}
+
+.spoiler:hover {
+     background-color: mediumpurple;
+     border: none;
+     font-weight: 900;
+     font-size: 20px;
+     transform: scale(1.1);
+     
 }
