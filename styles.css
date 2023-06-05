@@ -27,7 +27,7 @@
 .subscribe:hover {
      transform: scale(1.07);
      border: none;
-     font-weight: 700;
+     font-weight: bold;
 }
 
 .lists {
@@ -85,3 +85,4 @@
      transform: scale(1.1);
      
 }
+
