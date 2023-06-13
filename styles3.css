@@ -1,0 +1,185 @@
+.body {
+     margin-left: 15px;
+     background-color: hsl(0, 0%, 13%);
+     transition: 1s;
+     transition-delay: 2s;
+}
+
+#kill-me-now {
+     background-color: lightgray;
+     display: inline-block;
+     padding: 6px;
+     font-size: 40px;
+     font-weight: bold;
+     font-family: Oswald;
+     border-radius: 7px;
+
+}
+
+#kill-me-now:hover {
+     background-color: rgb(248, 248, 99);
+}
+
+#useless-stuff {
+     background-color: lightgray;
+     display: inline-block;
+     padding: 6px;
+     font-size: 35px;
+     font-weight: bold;
+     font-family: Oswald;
+     border-radius: 7px;
+}
+
+#useless-stuff:hover {
+     background-color: orangered;
+}
+
+.button {
+     font-size: 25px;
+     font-weight: bold;
+     padding: 6px;
+     background-color: lightgray;
+     border: 3px solid black;
+     border-radius: 7px;
+     transition: 0.2s;
+     cursor: pointer;
+     
+}
+
+.button:hover {
+     font-size: 1.9em;
+     transition: 0.2s;
+     background-color: rgb(248, 248, 99)
+}
+
+.button:active {
+     background-color: red;
+     transition: none;
+}
+
+.box1 {
+     background-color: whitesmoke;
+     padding: 10px;
+     box-shadow: 0px 0px 10px  white;
+     border-radius: 5px;
+     width: 300px;
+     transition: 1s;
+     display: inline-block;
+
+}
+
+.box2 {
+     background-color: gray;
+     width: 300px;
+     padding: 10px;
+     box-shadow: 0px 0px 10px  gray;
+     border-radius: 5px;
+     display: inline-block;
+}
+
+.box3 {
+     background-color: whitesmoke;
+     padding: 10px;
+     box-shadow: 0px 0px 10px  white;
+     border-radius: 5px;
+     width: 300px;
+     height: 150px;
+     transition: 0.5s;
+     transition-delay: 1s;
+     display: block;
+}
+
+.box3:hover {
+     background-color: whitesmoke;
+     padding: 10px;
+     box-shadow: 0px 0px 10px  red;
+     border-radius: 5px;
+     width: 520px;
+     height: 550px;
+     transition: 0.5s;
+     display: inline-block;
+}
+     
+
+.list li {
+     font-size: 30px;
+     border: 4px solid black;
+     margin-right: 130px;
+     padding: 3px;
+     transition: 0.1s;
+     border-radius: 5px;
+     background-color: lightgray;
+     border-style: outset;
+     cursor: pointer;
+     font-weight: 600;
+     overflow: auto;
+}
+
+.list li:hover {
+     background-color: orangered;
+     font-size: 35px;
+     margin-right: 110px;
+     transition: 0.1s;
+}
+
+
+ /* FIGURE THIS SHIT OUT LATER */
+
+#balls1 {
+     font-size: 40px;
+     font-family: Oswald;
+     font-weight: bold;
+     
+}
+
+#balls1 img {
+     display: one;
+     visibility: hidden;
+     opacity: 0;
+     transition: 1s;
+     width: 500px;
+}
+
+#balls1:hover img {
+     display: bock;
+     opacity: 1;
+     transition: 1s;
+     transition-delay: 2s;
+     visibility: visible;
+     width: 510px;     
+}
+
+#balls1 p {
+     display: non;
+     visibility: hidden;
+     opacity: 0;
+     transition: 1s;
+}
+
+#balls1:hover p {
+     display: blok;
+     visibility: visible;
+     opacity: 1;
+     transition: 1s;
+     transition-delay: 1s;
+     
+}
+
+/* SHIT OVER */
+
+#back-to-main {
+     margin: auto;
+     font-weight: bold;
+     padding: 5px;
+     box-shadow: 0px 0px 10px white;
+     border: 3px solid black;
+     font-size: 20px;
+     cursor: pointer;
+     display: inline-block;
+}
+
+#back-to-main:hover {
+     background-color: rgb(230, 230, 230);
+     transform: scale(1.01);
+     transition: 0.1s;
+}
