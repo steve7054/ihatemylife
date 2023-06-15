@@ -77,16 +77,17 @@
      display: inline-block;
 }
 
-.box3 {
+.box3:not(:hover) {
      background-color: whitesmoke;
      padding: 10px;
      box-shadow: 0px 0px 10px  white;
      border-radius: 5px;
      width: 300px;
-     height: 150px;
+     height: 70px;
      transition: 0.5s;
      transition-delay: 1s;
-     display: block;
+     display: inline-block;
+     overflow: hidden;
 }
 
 .box3:hover {
@@ -98,6 +99,8 @@
      height: 550px;
      transition: 0.5s;
      display: inline-block;
+     position: relative;
+     overflow: hidden;
 }
      
 
@@ -105,14 +108,14 @@
      font-size: 30px;
      border: 4px solid black;
      margin-right: 130px;
-     padding: 3px;
+     padding: 4px;
      transition: 0.1s;
      border-radius: 5px;
      background-color: lightgray;
      border-style: outset;
      cursor: pointer;
      font-weight: 600;
-     overflow: auto;
+     
 }
 
 .list li:hover {
@@ -122,6 +125,12 @@
      transition: 0.1s;
 }
 
+#listy li::marker {
+     content: "💀";
+     font-size: 15px;
+     display: inline-block;
+}
+
 
  /* FIGURE THIS SHIT OUT LATER */
 
@@ -129,39 +138,44 @@
      font-size: 40px;
      font-family: Oswald;
      font-weight: bold;
+     display: inline-block;
      
 }
 
-#balls1 img {
-     display: one;
-     visibility: hidden;
-     opacity: 0;
-     transition: 1s;
+#balls1:not(:hover) img {
+     display: iline-block;
+     visibility: idden;
+     opacity: 1;
+     transition: 0.5s;
      width: 500px;
+     border-radius: 3px;
+     overflow: hidden;
 }
 
 #balls1:hover img {
-     display: bock;
-     opacity: 1;
-     transition: 1s;
-     transition-delay: 2s;
-     visibility: visible;
-     width: 510px;     
-}
-
-#balls1 p {
-     display: non;
-     visibility: hidden;
-     opacity: 0;
-     transition: 1s;
-}
-
-#balls1:hover p {
-     display: blok;
-     visibility: visible;
+     display: blck;
      opacity: 1;
      transition: 1s;
      transition-delay: 1s;
+     visibility: visibe;
+     width: 510px;     
+}
+
+#balls1:not(:hover) p {
+     display: non;
+     visibility: hiden;
+     opacity: 1;
+     transition: 1s;
+     overflow: hidden;
+}
+
+#balls1:hover p {
+     display: lock;
+     visibility: vsible;
+     opacity: 1;
+     overflow: hidden;
+     transition: 0s;
+     transition-delay: 0s;
      
 }
 
@@ -182,4 +196,11 @@
      background-color: rgb(230, 230, 230);
      transform: scale(1.01);
      transition: 0.1s;
+}
+
+.box4 {
+     background-color: none;
+     display: block;
+     text-align: right;
+     margin-right: 15px;
 }

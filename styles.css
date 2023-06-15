@@ -211,3 +211,64 @@ body {
      text-shadow: 0px 0px 1px whitesmoke;
      font-weight: bold;
 }
+
+.dropdown {
+     text-align: center;
+     position: relative;
+     max-width: 210px;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.dropdown button {
+     padding: 10px;
+     background-color: gray;
+     cursor: pointer;
+     font-size: 25px;
+     font-family: Oswald;
+     border: none;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     width: 210px;
+     display: block;
+     border-radius: 2px;
+}
+
+.dropdown a {
+     display: block;
+     color: black;
+     text-decoration: none;
+     font-size: 20px;
+     font-family: Oswald;
+     padding: 10px 5px;
+     border-radius: 2px;
+}
+
+.dropdown .content {
+     background-color: lightgray;
+     display: none;
+     position: absolute;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     width: 210px;
+     box-shadow: 0px 5px 15px black;
+     border-radius: 2px;
+}
+
+.dropdown:hover .content {
+     display:block ;
+}
+
+.dropdown:hover button {
+     background-color: hsl(0, 0%, 67%);
+}
+
+.dropdown a:hover {
+     background-color: hsl(0, 0%, 67%);
+}
