@@ -1,274 +1,43 @@
-body {
-     background-color: hsl(0, 0%, 23%);
+
+#body {
+  margin: 0px;
 }
 
-.center {
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-     padding: 15px;
+#header {
+  margin: 0px;
+  padding: 0px;
 }
 
-.justify {
-     text-align: justify;
-     padding: 10px;
+#main {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.subscribe {
-     background-color: #FF0000;
-     font-size: 15px;
-     color: white;
-     padding: 8px;
-     border: none;
-     height: 36px;
-     width: 120px;
-     border-radius: 5px;
-     cursor: pointer;
-     transition: 0.2s;
-     display: inline-block;
-     box-shadow: 0px 0px 15px red;
+#Sample {
+  text-align: center;
 }
 
-.subscribe:hover {
-     transform: scale(1.07);
-     border: none;
-     font-weight: bold;
+.navbar ul {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 25%);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
 }
 
-.lists {
-     font-size: 20px;
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
 }
 
-.example {
-     padding: 15px;
+.navbar a:hover {
+  background-color: hsl(0, 0%, 14%);
 }
 
-.change-color {
-     display: inline-block;
-     padding: 10px 15px;
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 20px;
-     border-radius: 5px;
-     border: 3px solid red;
-     cursor: pointer;
-     box-shadow: 0px 0px 10px grey;
-}
-
-.change-color-red {
-     background: grey;
-     border: none;
-     color: white;
-     transition: 0.5s;
-}
-
-.change-color.button-outline {
-     background: grey;
-     }
-
-.change-color:hover {
-     background: orangered;
-     border: none;
-     transform: scale(1.1);
-     box-shadow: 0px 0px 10px orangered;
-}
-
-.header {
-     background-color: mediumpurple;
-     padding: 20px;
-     box-shadow: inset 0px 0px 15px black;
-     border-radius: 5px;
-}
-
-.spoiler {
-     color: black;
-     background-color: black;
-     border: 2px solid black;
-     transition: 0.2s;
-}
-
-.spoiler:hover {
-     background-color: mediumpurple;
-     border: none;
-     font-weight: 900;
-     font-size: 20px;
-     transform: scale(1.1);
-     
-}
-
-.border1 {
-     border-style: outset;
-     border-width: 5px;
-     border-color: orangered;
-     border-radius: 5px;
-     display: inline-block;
-}
-
-.border2 {
-     border-radius: 5px;
-     border-bottom: 5px ridge red;
-     border-top: 5px dashed blue;
-     border-left: 5px double green;
-     border-right: 5px dotted green;
-     display: inline-block;
-}
-
-.shadow1 {
-     text-shadow: 5px 5px 5px #251473, -5px -5px 5px #f4143c;
-}
-
-.box_shadow {
-     width: 300px;
-     height: 300px;
-     background-color: lightgray;
-     box-shadow: 5px 5px 10px #251473, -5px -5px 10px #f4143c;
-}
-
-.box_when {
-     background-color: grey;
-     margin: auto;
-     width: 1000px;
-     box-shadow: 10px 10px 15px;
-     padding: 15px;
-}
-
-.scroll_overflow {
-     border: 2px solid black;
-     width: 420px;
-     height: 100px;
-     margin: auto;
-     overflow: scroll;
-     padding: 10px;    
-     text-align:left;
-}
-
-.show:hover + .list-cat {
-     max-height: inherit;
-     opacity: 1;
-     
-     
-}
-
-.list-cat {
-     max-height: 0px;
-     opacity: 0;
-     overflow: hidden;     
-}
-
-.box1 {
-     background-color: lightgray;
-     height: auto;
-     display: inline-block;
-     padding: 15px;
-     box-shadow: 0px 0px 15px rgb(189, 189, 189);
-     border-radius: 7px;
-}
-
-.box2 {
-     background-color: gray;
-     display: inline-block;
-     height: auto;
-     padding: 10px;
-     box-shadow: 0px 0px 10px black ;
-     border-radius: 5px;
-     text-shadow: 0px 0px 1px whitesmoke;
-     font-weight: bold;
-     color: rgb(211, 211, 211);
-     text-shadow: 0px 0px 3px black;
-}
-
-#lists-and-shit {
-     color: rgb(241, 118, 3); 
-     font-size:40px; 
-     background-color:rgb(167, 167, 167);
-     border-radius: 4px;
-     display: inline-block;
-     padding: 5px;
-     padding-right: 90px;
-     text-shadow: 0px 0px 5px whitesmoke;
-     box-shadow: 0px 0px 15px rgb(68, 68, 68) ;
-     
-}
-
-#tables-and-shit {
-     color: brown; 
-     font-size:40px; 
-     background-color:rgb(167, 167, 167);
-     border-radius: 4px;
-     display: inline-block;
-     padding: 5px;
-     padding-right: 90px;
-     text-shadow: 0px 0px 5px whitesmoke;
-     box-shadow: 0px 0px 15px rgb(68, 68, 68) ;
-}
-
-.box3 {
-     background-color: gray;
-     display: inline-block;
-     height: auto;
-     padding: 10px;
-     box-shadow: 0px 0px 10px black ;
-     border-radius: 5px;
-     text-shadow: 0px 0px 1px whitesmoke;
-     font-weight: bold;
-}
-
-.dropdown {
-     text-align: center;
-     position: relative;
-     max-width: 210px;
-     left: 0;
-     right: 0;
-     margin-left: auto;
-     margin-right: auto;
-}
-
-.dropdown button {
-     padding: 10px;
-     background-color: gray;
-     cursor: pointer;
-     font-size: 25px;
-     font-family: Oswald;
-     border: none;
-     left: 0;
-     right: 0;
-     margin-left: auto;
-     margin-right: auto;
-     width: 210px;
-     display: block;
-     border-radius: 2px;
-}
-
-.dropdown a {
-     display: block;
-     color: black;
-     text-decoration: none;
-     font-size: 20px;
-     font-family: Oswald;
-     padding: 10px 5px;
-     border-radius: 2px;
-}
-
-.dropdown .content {
-     background-color: lightgray;
-     display: none;
-     position: absolute;
-     left: 0;
-     right: 0;
-     margin-left: auto;
-     margin-right: auto;
-     width: 210px;
-     box-shadow: 0px 5px 15px black;
-     border-radius: 2px;
-}
-
-.dropdown:hover .content {
-     display:block ;
-}
-
-.dropdown:hover button {
-     background-color: hsl(0, 0%, 67%);
-}
-
-.dropdown a:hover {
-     background-color: hsl(0, 0%, 67%);
+.navbar li {
+  float: left;
 }
